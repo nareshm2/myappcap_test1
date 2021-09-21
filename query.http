@@ -1,0 +1,2 @@
+#top 3
+GET http://localhost:4004/srv/Sales?$top=3&$select=country,amount&$orderby=amount%20desc
